@@ -1,0 +1,35 @@
+body {
+  padding-top: 56px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 0;
+  }
+
+  .sidebar {
+    position: fixed;
+  }
+}
+
+.sidebar {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.sidebar a {
+  color: #fff;
+}
+
+.sidebar a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.submenu {
+}
+
+.nav-item-has-submenu i::before {
+  margin-right: 10px;
+}
